@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65AEFA3D28F9A5060018836D /* OneHourWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AEFA3C28F9A5060018836D /* OneHourWalletApp.swift */; };
+		65AEFA3F28F9A5060018836D /* CreateWalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AEFA3E28F9A5060018836D /* CreateWalletView.swift */; };
+		65AEFA4128F9A5080018836D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65AEFA4028F9A5080018836D /* Assets.xcassets */; };
+		65AEFA4428F9A5080018836D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65AEFA4328F9A5080018836D /* Preview Assets.xcassets */; };
+		65AEFA4B28F9A6640018836D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AEFA4A28F9A6640018836D /* HomeView.swift */; };
+		65AEFA4D28F9A6780018836D /* ReceiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AEFA4C28F9A6780018836D /* ReceiveView.swift */; };
+		65AEFA4F28F9A6850018836D /* SendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AEFA4E28F9A6850018836D /* SendView.swift */; };
+		65AEFA5228F9A7D90018836D /* WalletUI in Frameworks */ = {isa = PBXBuildFile; productRef = 65AEFA5128F9A7D90018836D /* WalletUI */; };
+		65AEFA5528F9A8C70018836D /* BDKManager in Frameworks */ = {isa = PBXBuildFile; productRef = 65AEFA5428F9A8C70018836D /* BDKManager */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65AEFA3928F9A5060018836D /* OneHourWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneHourWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AEFA3C28F9A5060018836D /* OneHourWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneHourWalletApp.swift; sourceTree = "<group>"; };
+		65AEFA3E28F9A5060018836D /* CreateWalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWalletView.swift; sourceTree = "<group>"; };
+		65AEFA4028F9A5080018836D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65AEFA4328F9A5080018836D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65AEFA4A28F9A6640018836D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		65AEFA4C28F9A6780018836D /* ReceiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveView.swift; sourceTree = "<group>"; };
+		65AEFA4E28F9A6850018836D /* SendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65AEFA3628F9A5060018836D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AEFA5528F9A8C70018836D /* BDKManager in Frameworks */,
+				65AEFA5228F9A7D90018836D /* WalletUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65AEFA3028F9A5060018836D = {
+			isa = PBXGroup;
+			children = (
+				65AEFA3B28F9A5060018836D /* OneHourWallet */,
+				65AEFA3A28F9A5060018836D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65AEFA3A28F9A5060018836D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65AEFA3928F9A5060018836D /* OneHourWallet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65AEFA3B28F9A5060018836D /* OneHourWallet */ = {
+			isa = PBXGroup;
+			children = (
+				65AEFA3C28F9A5060018836D /* OneHourWalletApp.swift */,
+				65AEFA3E28F9A5060018836D /* CreateWalletView.swift */,
+				65AEFA4A28F9A6640018836D /* HomeView.swift */,
+				65AEFA4C28F9A6780018836D /* ReceiveView.swift */,
+				65AEFA4E28F9A6850018836D /* SendView.swift */,
+				65AEFA4028F9A5080018836D /* Assets.xcassets */,
+				65AEFA4228F9A5080018836D /* Preview Content */,
+			);
+			path = OneHourWallet;
+			sourceTree = "<group>";
+		};
+		65AEFA4228F9A5080018836D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				65AEFA4328F9A5080018836D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65AEFA3828F9A5060018836D /* OneHourWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65AEFA4728F9A5080018836D /* Build configuration list for PBXNativeTarget "OneHourWallet" */;
+			buildPhases = (
+				65AEFA3528F9A5060018836D /* Sources */,
+				65AEFA3628F9A5060018836D /* Frameworks */,
+				65AEFA3728F9A5060018836D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneHourWallet;
+			packageProductDependencies = (
+				65AEFA5128F9A7D90018836D /* WalletUI */,
+				65AEFA5428F9A8C70018836D /* BDKManager */,
+			);
+			productName = OneHourWallet;
+			productReference = 65AEFA3928F9A5060018836D /* OneHourWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65AEFA3128F9A5060018836D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					65AEFA3828F9A5060018836D = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 65AEFA3428F9A5060018836D /* Build configuration list for PBXProject "OneHourWallet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65AEFA3028F9A5060018836D;
+			packageReferences = (
+				65AEFA5028F9A7D90018836D /* XCRemoteSwiftPackageReference "WalletUI" */,
+				65AEFA5328F9A8C70018836D /* XCRemoteSwiftPackageReference "bdkmanager-swift" */,
+			);
+			productRefGroup = 65AEFA3A28F9A5060018836D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65AEFA3828F9A5060018836D /* OneHourWallet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65AEFA3728F9A5060018836D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AEFA4428F9A5080018836D /* Preview Assets.xcassets in Resources */,
+				65AEFA4128F9A5080018836D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65AEFA3528F9A5060018836D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AEFA4B28F9A6640018836D /* HomeView.swift in Sources */,
+				65AEFA3F28F9A5060018836D /* CreateWalletView.swift in Sources */,
+				65AEFA4D28F9A6780018836D /* ReceiveView.swift in Sources */,
+				65AEFA4F28F9A6850018836D /* SendView.swift in Sources */,
+				65AEFA3D28F9A5060018836D /* OneHourWalletApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		65AEFA4528F9A5080018836D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65AEFA4628F9A5080018836D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65AEFA4828F9A5080018836D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OneHourWallet/Preview Content\"";
+				DEVELOPMENT_TEAM = 8DAB7BVU34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = design.bitcoin.OneHourWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65AEFA4928F9A5080018836D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OneHourWallet/Preview Content\"";
+				DEVELOPMENT_TEAM = 8DAB7BVU34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = design.bitcoin.OneHourWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65AEFA3428F9A5060018836D /* Build configuration list for PBXProject "OneHourWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AEFA4528F9A5080018836D /* Debug */,
+				65AEFA4628F9A5080018836D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65AEFA4728F9A5080018836D /* Build configuration list for PBXNativeTarget "OneHourWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AEFA4828F9A5080018836D /* Debug */,
+				65AEFA4928F9A5080018836D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		65AEFA5028F9A7D90018836D /* XCRemoteSwiftPackageReference "WalletUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bdgwallet/WalletUI";
+			requirement = {
+				branch = buttonStyles;
+				kind = branch;
+			};
+		};
+		65AEFA5328F9A8C70018836D /* XCRemoteSwiftPackageReference "bdkmanager-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bdgwallet/bdkmanager-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		65AEFA5128F9A7D90018836D /* WalletUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65AEFA5028F9A7D90018836D /* XCRemoteSwiftPackageReference "WalletUI" */;
+			productName = WalletUI;
+		};
+		65AEFA5428F9A8C70018836D /* BDKManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65AEFA5328F9A8C70018836D /* XCRemoteSwiftPackageReference "bdkmanager-swift" */;
+			productName = BDKManager;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 65AEFA3128F9A5060018836D /* Project object */;
+}
